@@ -1,9 +1,9 @@
 <template lang="pug">
   form.container
     .form-row
-      .col-md-1
+      .col-1
         .loader(v-bind:class="{'loader-active': awaitResponse}")
-      .col-md-11
+      .col-11
         .input-group
           .search-wrapper
             input.form-control(
